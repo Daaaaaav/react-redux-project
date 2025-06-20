@@ -1,4 +1,4 @@
 import { counterReducer } from './counter/reducer';
-import { createStore } from 'react-redux';
+import { createStore } from 'redux';
 
 export const store = createStore(counterReducer);
