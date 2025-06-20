@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Provider store={store}>
-      <img src={hime} alt="Himes"/>
+      <img src={hime} alt="Himes" width={250} height={250}/>
       <h1>Count: {count}</h1>
       <button onClick={()=>dispatch(increment())}>+</button>
       <button onClick={()=>dispatch(decrement())}>-</button>
